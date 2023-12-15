@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;200;300;400;500;600;700&family=Urbanist:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #80C0BF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#titulo{
+  font-family: 'Lilita One', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: #62A49C;
+  padding: 20px;
+}
+
+.content > form{
+  background: #F7CECC;
+  width: 780px;
+  height: 815px;
+  border-radius: 3%;
+}
+
+.content label{
+  margin-bottom: 0.1em;
+  margin-left: 2.8rem;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  display:block; 
+}
+
+.content input{
+  margin-left: 2.8rem;
+  margin-bottom: 3%;
+  align-items: center;
+  width: 690px;
+  height: 34px;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  background: #FBEFC7;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.content input:focus{
+  background: #F8EFE0;
+}
+
+.genero{
+  display: flex;
+  justify-content: space-evenly;
+  width: 72px;
+  margin-left: 42%;
+  margin-bottom: 1%;
+}
+
+.botao[type="submit"]{
+  font-size: 1.2em;
+  background-color: #5FA399;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  border: 0;
+  border-radius: 0.5em;
+  color: #fff;
+  padding: 0.2em 0.6em;
+  align-items: flex;
+  justify-content: center;
+  position: relative;
+  top: 5%;
+  left: 50%;
+  margin-right: -50%;
+  transform:translate(-50%,-50%);
+}
+
+.botao:hover{
+  background: #4F9086;
+  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: none;
+  cursor: pointer;
+}
